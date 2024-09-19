@@ -1,0 +1,33 @@
+[
+  {
+    "ts": "2024-09-19T21:48:49.453Z",
+    "level": "error",
+    "error": {
+      "originalError": {
+        "name": "AccessTokenInvalid",
+        "message": "{\n  \"status\": 403,\n  \"statusText\": \"Forbidden\",\n  \"message\": \"The access token you sent could not be found or is invalid.\",\n  \"details\": {},\n  \"request\": {\n    \"url\": \"/spaces/jg4af3ja8eje\",\n    \"headers\": {\n      \"Accept\": \"application/json, text/plain, */*\",\n      \"Content-Type\": \"application/vnd.contentful.management.v1+json\",\n      \"X-Contentful-User-Agent\": \"app contentful.import/0.0.0-determined-by-semantic-release; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v20.11.1; os Windows/v20.11.1;\",\n      \"CF-Sequence\": \"2263fde3-cdc0-4529-8676-f8fefabfa9fe\",\n      \"Authorization\": \"Bearer ..._pJLY\",\n      \"User-Agent\": \"axios/1.5.1\",\n      \"Accept-Encoding\": \"gzip, compress, deflate, br\"\n    },\n    \"method\": \"get\"\n  },\n  \"requestId\": \"5512c5a5-290b-48d8-8c4c-6ceea4a762c3\"\n}"
+      },
+      "data": {
+        "status": 403,
+        "statusText": "Forbidden",
+        "message": "The access token you sent could not be found or is invalid.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/jg4af3ja8eje",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/0.0.0-determined-by-semantic-release; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v20.11.1; os Windows/v20.11.1;",
+            "CF-Sequence": "2263fde3-cdc0-4529-8676-f8fefabfa9fe",
+            "Authorization": "Bearer ..._pJLY",
+            "User-Agent": "axios/1.5.1",
+            "Accept-Encoding": "gzip, compress, deflate, br"
+          },
+          "method": "get"
+        },
+        "requestId": "5512c5a5-290b-48d8-8c4c-6ceea4a762c3"
+      }
+    }
+  }
+]
